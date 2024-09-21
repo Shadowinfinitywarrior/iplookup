@@ -54,7 +54,7 @@ This is a simple Python-based IP lookup tool that works on both Kali Linux and T
 
 2. Navigate to the project directory:
     ```bash
-    cd iplookup-tool
+    cd iplookup
     ```
 
 3. Install Python3 in Termux (if not already installed):
