@@ -3,13 +3,28 @@ import re
 import requests
 import sys
 
+def show_banner():
+    ascii_art = r"""
+   
+  _____ _____    _      ____   ____  _  ___    _ _____  
+ |_   _|  __ \  | |    / __ \ / __ \| |/ / |  | |  __ \ 
+   | | | |__) | | |   | |  | | |  | | ' /| |  | | |__) |
+   | | |  ___/  | |   | |  | | |  | |  < | |  | |  ___/ 
+  _| |_| |      | |___| |__| | |__| | . \| |__| | |     
+ |_____|_|      |______\____/ \____/|_|\_\\____/|_|     
+                                                        
+                                                        
+
+    """
+    print(ascii_art)
+
 def get_ip_details(ip):
     api_url = f"http://ipinfo.io/{ip}/json"
     try:
         response = requests.get(api_url)
         data = response.json()
         
-        if 'bogon' in data:
+        if 'bogon' in data: 
             print(f"IP {ip} is a bogon (reserved IP address)")
         else:
             print(f"Details for IP {ip}:")
@@ -40,4 +55,5 @@ def get_remote_machine_info():
             print(f"Error resolving hostname {user_input}: {err_msg}")
 
 if __name__ == '__main__':
+    show_banner()
     get_remote_machine_info()
