@@ -74,7 +74,7 @@ This is a simple Python-based IP lookup tool that works on both Kali Linux and T
 
 6. Optionally, move the script to your `bin` directory:
     ```bash
-    mv iplookup.py
+    python iplookup.py
     ```
 
 ## Usage
