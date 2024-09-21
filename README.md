@@ -17,7 +17,7 @@ This is a simple Python-based IP lookup tool that works on both Kali Linux and T
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/iplookup-tool.git
+    git clone https://github.com/Shadowinfinitywarrior/iplookup.git
     ```
 
 2. Navigate to the project directory:
@@ -49,7 +49,7 @@ This is a simple Python-based IP lookup tool that works on both Kali Linux and T
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/iplookup-tool.git
+    git clone https://github.com/Shadowinfinitywarrior/iplookup.git
     ```
 
 2. Navigate to the project directory:
@@ -74,7 +74,7 @@ This is a simple Python-based IP lookup tool that works on both Kali Linux and T
 
 6. Optionally, move the script to your `bin` directory:
     ```bash
-    mv iplookup.py $HOME/bin/iplookup
+    mv iplookup.py
     ```
 
 ## Usage
